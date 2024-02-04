@@ -2,6 +2,7 @@
 **Overview**
 
 Welcome to the Image Similarity Finder, a Streamlit web application designed to help you upload any image and display 5 similar images. This application utilizes a pre-trained ResNet50 model and cosine similarity to identify images with similar content. I have used Google Colab and Local Tunnel for model training, embeddings generation and running the web-application.
+
 ![WhatsApp Image 2024-02-04 at 7 05 16 PM](https://github.com/AaqibbHasanie/Clothes-Similarity-App/assets/103883753/bcc24d85-cccc-4ddc-8a8b-b382caf9a2b2)
 
 
