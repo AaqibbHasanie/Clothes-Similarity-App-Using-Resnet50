@@ -1,4 +1,3 @@
-**Image Similarity Finder**
 
 **Overview**
 
