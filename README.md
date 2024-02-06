@@ -9,9 +9,13 @@ Welcome to the Image Similarity Finder, a Streamlit web application designed to 
 **Project Structure**
 
 The project is organized into the following components:
+
 **Dataset**: The dataset is sourced from a CSV file named Data ID - Sheet1.csv. Each entry includes a unique product ID and a corresponding image link.
+
 **Data Preparation**: The dataset is read and images are downloaded using the provided URLs. The downloaded images are stored in the final image dataset directory.
+
 **Embedding Generation**: The ResNet50 model is employed to generate embeddings for each image. The embeddings are computed and saved in a file named embeddings.pkl.
+
 **Web Application**: The Streamlit web application will be created in the app.py file after running the entire provided code. Users can upload an image, and the application will find and display visually similar images from the dataset based on cosine similarity.
 
 **How to Use**
@@ -31,9 +35,13 @@ the image running.
 
 
 **Important Files**
+
 **Dataset**: Data ID - Sheet1.csv
+
 **Embeddings File**: embeddings.pkl - It will contain the computed image embeddings for faster similarity calculations.**
+
 **Model and Similarity Metric**
+
 **Deep Learning Model:** The ResNet50 model pre-trained on ImageNet is used to extract features from images.
 
 **Similarity Metric**: Cosine similarity is employed to measure the similarity between image embeddings. 
